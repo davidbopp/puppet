@@ -1,1 +1,4 @@
-file { /etc/motd : source => puppet:///files/motd, }
+file { /etc/motd :
+	source => puppet:
+	///files/motd,
+ }
